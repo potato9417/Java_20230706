@@ -6,9 +6,9 @@ public class JavaEx05 {
 
 	public static void main(String[] args) {
 		// int num1 = 1L; // long => int 불가 (형변환필수: 큰타입->작은타입)
-		int num1 = (int)1L;
+		// int num1 = (int)1L;
 		
-		long num2 = 1; // int => long 가능 (자동변환: 작은타입->큰타임)
+		// long num2 = 1; // int => long 가능 (자동변환: 작은타입->큰타임)
 		// long num2 = (int)1; // 수동변환도 가능
 		
 		// byte < short < int < long < float < double
