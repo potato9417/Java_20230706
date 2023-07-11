@@ -20,6 +20,7 @@ public class Javaex01_01 {
 		else {
 			System.out.println("잘못입력");
 		}
-		
+	
+		sc.close();
 	}
 }
