@@ -17,6 +17,7 @@ public class Student {
         return studentCount;
     }
 
+    
     public static void main(String[] args) {
         Student student1 = new Student("홍길동");
         System.out.println(student1.getName() + " 학생이 생성되었습니다.");
