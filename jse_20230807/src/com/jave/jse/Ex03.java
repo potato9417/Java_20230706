@@ -18,11 +18,11 @@ public class Ex03 {
 	}
 	
 	// 평균계산 함수 => n승 활용 함수 : Math.pow
-	private static float avgSubjects(int sum, int i, int j) {
+	private static float avgSubjects(int sum, int i, float len) {
 		
 		// Math.round((sum/3f)*10)/10f;
 		
-		float subjectAvg = (float) (Math.round((sum/j)*Math.pow(10, i))/(Math.pow(10, i)));
+		float subjectAvg = (float) (Math.round((sum/len)*Math.pow(10, i))/(Math.pow(10, i)));
 		return subjectAvg;
 	}
 	
